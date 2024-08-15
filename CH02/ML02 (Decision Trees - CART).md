@@ -1,3 +1,7 @@
+---
+tags:
+  - MachineLearning
+---
 ## Chapter Notes
 ###### Basic Definition
 * Given data (x, y) and modeling f(x) 
@@ -30,4 +34,9 @@ $$
 E_{R_k}(j, s) + E_{{R_k}^{'}}(j, s)\ where\ {R_k}(j, s) = x_i : x_{ij} > s , {R'_k}(j, s) = x_i : x_{ij} <= s
 $$
 here our *base case* might be on of the two we mentioned earlier but also we can **stop when Rk contains only one class of points**
-
+##### Generalizations for the trees
+###### Impurity measures
+* Er which is misclassification rate in region R
+* Hr (Entropy) which is the sum over classes times the log of the probability $$H_R =  - \sum_{y\in Y} P_R(y)log(P_R(y)) $$
+and the entropy tries to make a region as homogeneous as possible and it can directly replace the Er 
+* Gr (Gini index) which is the sum over classes multiplied by one minus the probability $$G_R = \sum_{y\in Y} P_R(y)(1-P_R(y))$$

@@ -1,3 +1,7 @@
+---
+tags:
+  - MachineLearning
+---
 
 ##### kNN (1.6)
 Simply classifying the class of the point depending on the *majority vote of the k nearest neighbors* to it.

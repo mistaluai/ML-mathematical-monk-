@@ -1,3 +1,7 @@
+---
+tags:
+  - MachineLearning
+---
 ## Chapter Notes
 #### Defintion (1.1)
 Algorithms for inferring unknowns from known
